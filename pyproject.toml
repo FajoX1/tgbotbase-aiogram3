@@ -1,0 +1,7 @@
+[project]
+name = "tgbotbase-aiogram3"
+version = "1.0.0"
+description = "Telegram bot template for aiogram 3.x"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []

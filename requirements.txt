@@ -1,0 +1,10 @@
+aiogram
+aiogram-dialog
+redis
+python-dotenv
+fluent.runtime
+fluent.syntax
+babel
+openai
+aiofiles
+googletrans
