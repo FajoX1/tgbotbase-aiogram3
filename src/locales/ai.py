@@ -7,10 +7,10 @@ from src.utils import entities
 class AITranslator:
     
     def __init__(self):
-        self.model = "openai/gpt-oss-20b:free" # Change to another model for production
+        self.model = config.AI_MODEL
         self.ai = AsyncOpenAI(
-            base_url="https://openrouter.ai/api/v1",
-            api_key=config.OPENROUTE_API_KEY,
+            base_url=config.AI_API_URL,
+            api_key=config.AI_API_KEY,
         )
         self.translator = Translator()
 
